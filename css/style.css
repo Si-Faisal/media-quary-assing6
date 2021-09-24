@@ -1,0 +1,372 @@
+*{
+	padding: 0px;
+	margin: 0;
+	
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Koh Santepheap;
+}
+a {
+	text-decoration: none;
+}
+/*.....global css start.....*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.raw{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+	
+/*.....global css end.....*/
+/*....header part start....*/
+header{
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+.menu{
+	width: 100%;
+	float: left;
+    text-align: right;
+	
+	
+}
+.menu li{
+
+	list-style: none;
+	display: inline-block;
+	margin-top: 6px;
+
+
+}
+.menu li a{
+	font-size: 16px;
+	font-weight:400;
+	padding: 12px 5px;
+	text-transform:capitalize;
+	margin: 0 12px;
+	color:#3F3D56; 
+	transition: 1s;
+}
+.menu li a:hover{
+	color:aliceblue;
+	background-color: cadetblue;
+	
+}
+/*....header part end....*/
+/*....online part start....*/
+.online-section{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+}
+.online-section h2{
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 55px;
+	color: #3F3D56;
+	
+	
+}
+.online-section h2 span{
+	color:#008AFF ;
+}
+.online-section h5{
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 22px;
+	color:#CCCCCC;
+}
+.online-section img{
+	padding-top: 32px;
+}
+/*....online part end....*/
+/*....success part start....*/
+.success-part{
+	width: 100%;
+    float: left;
+	padding: 30px 0;
+}
+.success-part h1{
+    font-size: 45px;
+	font-weight: 900;
+	line-height: 55px;
+	
+} 
+.logo{
+	text-align: right;
+	color:red ;
+	padding: 0 12px
+}
+		
+.disc{
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 25px;
+	color: #3F3D56;
+	text-align: right;
+	padding: 0 12px
+}
+.success-part .right-title{
+	color:  #3F3D56;
+}
+/*....success part end....*/
+/*....feature part start....*/
+
+.feature-section {
+	width: 100%;
+	float: left;
+	padding: 50px 0;
+}
+.inner-feature-1{
+	width: 90%;
+	float: left;
+	padding:30px 10px;
+	background-color:aquamarine;
+}
+.inner-feature-2{
+	width: 90%;
+	float: left;
+	padding: 30px 10px;
+	background-color:cornsilk;
+}
+.inner-feature-3{
+	width: 90%;
+	float: left;
+	padding:30px 10px;
+	background-color:bisque;
+}
+.inner-feature-1 img,.inner-feature-2 img,.inner-feature-3 img{
+	width: 100%;
+	height: 225px;
+}
+/*....feature part end......*/
+/*.....footer part start.....*/
+footer{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding: 15px 0;
+	float: left;
+
+	
+}
+.last-part{
+	width: 100%;
+	padding: 20px 0;
+	
+}
+.footer-part{
+	width: 100%;
+	float: left;
+	padding: 40px 10px;
+	background-color:darkseagreen;
+}
+/*.....footer part end.....*/
+
+/*.....media quary part start.....*/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+}
+	
+.menu {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+	
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0px;
+}
+.menu li a {
+    font-size: 8px;
+    font-weight: 100;
+    padding: 8px 1px;
+    text-transform: capitalize;
+    margin: 0 0px;
+    color: #3F3D56;
+    transition: 1s;
+}
+.online-section {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 0px;
+}
+.online-section h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3F3D56;
+}
+.online-section h5 {
+	width: 98%;
+	padding-top: 2px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 16px;
+    color: #CCCCCC;
+}
+.online-section img {
+    padding-top: 6px;
+	width: 98%;
+}
+.success-part {
+    width: 100%;
+    float: left;
+    padding: 8px 0;
+}
+.logo {
+    text-align: right;
+    color: red;
+    padding: 0 6px;
+}
+.success-part h1 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33px;
+	text-transform: capitalize;
+}
+.disc {
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 15px;
+    color: #3F3D56;
+    text-align: right;
+    padding: 0 6px;
+}
+.feature-section {
+    width: 100%;
+    float: left;
+    padding: 12px 0;
+}
+.inner-feature-1 {
+    width: 90%;
+    float: left;
+    padding: 0px 5px;
+    background-color: aquamarine;
+}
+  .inner-feature-1 img, .inner-feature-2 img, .inner-feature-3 img {
+    width: 100%;
+    height: 100px;
+}
+
+.feature-section p{
+	font-size: 10px;
+	line-height: 14px;
+	}
+.inner-feature-2 {
+    width: 90%;
+    float: left;
+    padding: 0px 5px;
+    background-color: cornsilk;
+}
+.inner-feature-3 {
+    width: 90%;
+    float: left;
+    padding: 0px 5px;
+    background-color: bisque;
+}
+footer {
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    padding: 0px 0;
+    float: left;
+}
+.last-part {
+    width: 100%;
+    padding: 0px 0;
+}
+.footer-part {
+    width: 100%;
+    float: left;
+    padding: 8px 0px;
+    background-color: darkseagreen;
+}
+	.footer-part p{
+		font-size: 10px;
+	}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+
+
+/*.....media quary part end.....*/
